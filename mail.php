@@ -33,7 +33,7 @@ try {
 
     // Email content
     $mail->setFrom('rcntsonline@gmail.com', 'JIDAN FOODS ENQUIRY');
-    $mail->addAddress('tosintayo4jamb@gmail.com');
+    $mail->addAddress('jidanfoods@gmail.com');
     $mail->Subject = $subject;
 
     // Email body with form fields
